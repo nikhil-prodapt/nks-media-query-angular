@@ -1,0 +1,12 @@
+.Desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 839px) {
+  .Desc {
+    display: flex;
+    flex-direction: column;
+  }
+}
